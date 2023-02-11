@@ -7,6 +7,6 @@ public class Animal {
 
     @Override
     public String toString() {
-        return this.name;
+        return String.format("Animal[name=\"%s\"]", this.name);
     }
 }
