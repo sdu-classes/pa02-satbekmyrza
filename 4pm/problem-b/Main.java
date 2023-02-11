@@ -13,5 +13,11 @@ public class Main {
         Circle c1 = new Circle();
         System.out.println(c1);
         
+        Rectangle r1 = new Rectangle();
+        Rectangle r2 = new Rectangle(3.0, 4.0, "yellow", false);
+
+        System.out.println(r1);
+        System.out.println(r2);
+        
     }
 }
