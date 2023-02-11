@@ -7,7 +7,13 @@ public class Main {
         System.out.println(m);
 
         Cat c = new Cat("Felix");
+        c.greets();
         System.out.println(c);
         
+        Dog d = new Dog("K9");
+        Dog d2 = new Dog("Aqtos");
+        d.greets();
+        d.greets(d2);
+        System.out.println(d);
     }
 }
