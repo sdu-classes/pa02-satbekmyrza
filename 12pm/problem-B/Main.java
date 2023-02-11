@@ -2,15 +2,17 @@ public class Main {
     public static void main(String[] args) { 
         Shape s = new Shape();
         System.out.println(s);
-        
 
-        // Circle circle = new Circle(5.5, "red", false); 
-        // System.out.println(circle); 
-        // System.out.println(circle.getArea()); 
-        // System.out.println(circle.getPerimeter());
-        // System.out.println(circle.getColor()); 
-        // System.out.println(circle.isFilled()); 
-        // System.out.println(circle.getRadius()); 
+        Circle c = new Circle();
+        System.out.println(c);
+        
+        Circle circle = new Circle(5.5, "red", false); 
+        System.out.println(circle); 
+        System.out.println(circle.getArea()); 
+        System.out.println(circle.getPerimeter());
+        System.out.println(circle.getColor()); 
+        System.out.println(circle.isFilled()); 
+        System.out.println(circle.getRadius()); 
  
         // Rectangle rectangle = new Rectangle(3.8, 2.5, "green", false); 
         // System.out.println(rectangle); 
