@@ -5,5 +5,9 @@ public class Main {
         
         Mammal m = new Mammal("Whale");
         System.out.println(m);
+
+        Cat c = new Cat("Felix");
+        System.out.println(c);
+        
     }
 }
