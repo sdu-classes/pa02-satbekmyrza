@@ -9,6 +9,9 @@ public class Main {
         
         System.out.println(s1);
         System.out.println(s2);
+
+        Circle c1 = new Circle();
+        System.out.println(c1);
         
     }
 }
