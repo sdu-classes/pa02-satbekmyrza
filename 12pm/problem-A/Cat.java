@@ -7,6 +7,7 @@ public class Cat extends Mammal {
         System.out.println("Meow");
     }
 
+    @Override
     public String toString() {
         return String.format("Cat[%s]", super.toString());
     }
