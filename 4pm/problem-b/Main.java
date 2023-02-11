@@ -19,5 +19,14 @@ public class Main {
         System.out.println(r1);
         System.out.println(r2);
         
+        Square sq1 = new Square();
+        System.out.println(sq1.getWidth());
+        System.out.println(sq1.getLength());
+        sq1.setSide(10);
+        System.out.println(sq1.getWidth());
+        System.out.println(sq1.getLength());
+        sq1.setWidth(3);
+        System.out.println(sq1.getWidth());
+        System.out.println(sq1.getLength());
     }
 }
