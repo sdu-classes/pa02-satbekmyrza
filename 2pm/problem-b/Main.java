@@ -11,6 +11,12 @@ public class Main {
 
         System.out.println(c1);
         System.out.println(c2);
+
+        Rectangle r1 = new Rectangle();
+        Rectangle r2 = new Rectangle(3.0, 4.0);
+        
+        System.out.println(r1);
+        System.out.println(r2);
         
     }
 }
