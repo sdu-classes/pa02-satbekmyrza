@@ -22,10 +22,10 @@ public class Main {
         System.out.println(rectangle.getLength()); 
  
  
-        // Square square = new Square(6.6); 
-        // System.out.println(square); 
-        // System.out.println(square.getArea()); 
-        // System.out.println(square.getColor()); 
-        // System.out.println(square.getSide()); 
+        Square square = new Square(6.6); 
+        System.out.println(square); 
+        System.out.println(square.getArea()); 
+        System.out.println(square.getColor()); 
+        System.out.println(square.getSide()); 
     } 
 }
