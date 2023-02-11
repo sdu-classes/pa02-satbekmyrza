@@ -6,5 +6,8 @@ public class Main {
         Mammal m = new Mammal("Monkey");
         System.out.println(m);
         
+        Cat c = new Cat("Felix");
+        System.out.println(c);
+        
     }
 }
