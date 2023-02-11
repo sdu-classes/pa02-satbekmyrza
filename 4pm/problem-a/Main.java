@@ -8,6 +8,8 @@ public class Main {
         
         Cat c = new Cat("Felix");
         System.out.println(c);
-        
+
+        Dog d = new Dog("Java");
+        System.out.println(d);
     }
 }
